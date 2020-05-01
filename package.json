@@ -1,0 +1,19 @@
+{
+  "name": "qfinds_website",
+  "version": "1.0.0",
+  "scripts": {
+    "minify_release": "html-minifier -c html-minifier-config.conf --no-include-auto-generated-tags --input-dir hosting/unminified --file-ext html --output-dir hosting/static",
+    "minify_dev": "html-minifier -c html-minifier-config.conf --no-include-auto-generated-tags --input-dir hosting/unminified --file-ext html --output-dir hosting/development",
+    "deploy": "npm run minify_release && firebase deploy --only hosting",
+    "test": "npm run minify_dev && firebase deploy --only hosting"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-minifier": "^4.0.0"
+  },
+  "devDependencies": {
+    "inquirer": "^6.5.2",
+    "inquirer-autocomplete-prompt": "^1.0.2"
+  }
+}

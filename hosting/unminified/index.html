@@ -1,0 +1,874 @@
+<!doctype html>
+<html ⚡ lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="images/favicon.ico">
+<meta name="msapplication-TileColor" content="#603cba">
+<meta name="msapplication-config" content="images/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark:500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Palanquin:400,700&display=swap" rel="stylesheet">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>QFinds</title>
+    <link rel="canonical" href="https://qfinds.io/">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><style amp-custom>
+body, input {
+  font-family: Palanquin;
+  width: 100%;
+}
+
+html {
+  width: 100%;
+}
+.headerbar{width:100%;height:74px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff}
+.content {
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.headerbar .logo{
+  margin-top: 24px
+}
+
+.col5 {
+  width:100%;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+.col5 div, .col7 div {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.col7 {
+  width:100%;
+}
+
+.Job-hunting-sucks {
+  font-family: 'Palanquin Dark';
+  font-size: 28px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.4px;
+  color: #333;
+  margin:0;
+}
+
+
+
+.Not-anymore {
+  font-family: 'Palanquin Dark';
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: -0.5px;
+  color: #5863f8;
+  margin: 12px 0 0 0;
+}
+
+.Stand-out-with-a-pro {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.18px;
+  color: #333;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile_only {
+  display:block;
+}
+
+.desktop_only {
+  display:none;
+}
+
+section.desktop_only {
+  display:none;
+}
+
+.landing_section {
+  margin-top:20px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.RectangleBG1 {
+  width: 684px;
+  height: 684px;
+  transform: rotate(-30deg);
+  border-radius: 88px;
+  box-shadow: 0 20px 30px 0 rgba(66, 77, 232, 0.05);
+  background-color: #5863f8;
+  position: absolute;
+    top: -275.18px;
+    right: -342px;
+}
+
+.RectangleBG2 {
+  display: none;
+}
+
+.RectangleBG3 {
+  display: none;
+}
+
+.cornflower {
+  color:#5863f8;
+}
+
+.So-so-o-o-simple {
+  font-family: 'Palanquin Dark';
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 0px;
+}
+
+.A-few-simple-steps-a {
+  font-family: Palanquin;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 4px;
+  color: #333333;
+}
+
+.alternateSection {
+  background-color: #fafafa;
+  width: 100%;
+}
+
+fieldset, form {
+  border: none;
+  padding: 0;
+  margin-left: 0;
+  max-width: 500px;
+}
+
+input {
+margin-left: 0;
+width:100%;
+border-radius: 0px;
+}
+
+input.stylish_input {
+font-size: 16px;
+padding:15px 0px 15px 0px;
+margin-top:18px;
+border: none;
+border-bottom:2px solid #5863f8;
+caret-color: #5863f8;
+outline:none;
+}
+
+input.stylish_input_secondary {
+font-size: 16px;
+padding:15px 0px 15px 0px;
+margin-top:18px;
+border: none;
+border-bottom:1px solid #dbdbdb;;
+caret-color: #5863f8;
+outline:none;
+}
+
+.submit {
+    display: inline-block;
+    padding: 11px 27px 11px 27px;
+    margin-top: 36px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 9px;
+  border: solid 1px rgba(0, 0, 0, 0.05);
+    background-color: #5863f8;
+    appearance: button;
+    -moz-appearance: button;
+-webkit-appearance: button;
+}
+
+.Less-time-job-huntin {
+  font-family: 'Palanquin Dark';
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #333;
+}
+
+.Join-the-revolution {
+  font-family: 'Palanquin Dark';
+  font-size: 38px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #333;
+}
+
+@media (min-width: 920px) {
+
+  .Join-the-revolution {
+  font-family: 'Palanquin Dark';
+  font-size: 38px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #333;
+}
+
+  .Less-time-job-huntin {
+  font-family: 'Palanquin Dark';
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #333;
+}
+  .headerbar {
+    height:100px;
+  }
+  .headerbar .logo{
+  margin-top: 37px;
+  margin-left: 5px
+}
+
+.landing_section {
+  margin-top:74px;
+}
+
+.mobile_only {
+  display:none;
+}
+
+.desktop_only {
+  display:block;
+}
+
+section.desktop_only {
+  display:block;
+}
+
+.col5 {
+  width:380px;
+  display:inline-block;
+}
+
+.Not-anymore {
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -0.6px;
+}
+
+.Job-hunting-sucks {
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: -0.4px;
+}
+
+.Stand-out-with-a-pro {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
+.col7 {
+width: 540px;
+display:inline-block;
+}
+
+input.stylish_input,input.stylish_input_secondary {
+  margin-top:16px;
+  width:290px;
+  }
+  .submit {
+    width: 140px;
+  }
+
+footer{
+  margin-top: 208px;
+}
+footer div.content {
+  padding :0 0 20px 0;
+}
+
+.RectangleBG1 {
+  width: 684px;
+  height: 684px;
+  transform: rotate(-30deg);
+  border-radius: 88px;
+  box-shadow: 0 20px 30px 0 rgba(66, 77, 232, 0.05);
+  background-color: #5863f8;
+  position: absolute;
+    top: -160px;
+    right: -342px;
+}
+
+.RectangleBG2 {
+  display: block;
+  width: 404px;
+  height: 404px;
+  transform: rotate(-30deg);
+  border-radius: 88px;
+  box-shadow: 0 20px 30px 0 rgba(219, 80, 1, 0.05);
+  background-color: #f35b04;
+  position: absolute;
+    top: 549px;
+    left: -346px;
+}
+}
+
+.lightbox {
+      background: rgba(0,0,0,0.8);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+.popup {
+  background: #fff;
+    border-radius:0;
+    padding: 30px;
+    position:relative;
+    text-align: center;
+}
+
+.popup {
+    padding:41px 50px 50px
+}
+
+.fancybox-button, .fancybox-button:link, .fancybox-button:visited {
+    color:#ccc
+}
+
+.fancybox-button:focus {
+    outline:none
+}
+
+.fancybox-button.fancybox-focus {
+    outline:1px dotted
+}
+
+.fancybox-button[disabled], .fancybox-button[disabled]:hover {
+    color: #888;
+    cursor: default;
+    outline:none
+}
+
+.fancybox-button div {
+    height:100%
+}
+
+.fancybox-button svg {
+    display: block;
+    height: 100%;
+    overflow: visible;
+    position: relative;
+    width:100%
+}
+
+.fancybox-button svg path {
+    fill: currentColor;
+    stroke-width:0
+}
+
+.fancybox-close-small {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index:401;
+    color: currentColor;
+    padding: 10px;
+    right: 0;
+    top: 0;
+    left:auto;
+    bottom:auto;
+    display:inline-block;
+}
+
+footer{
+  margin-top: 112px;
+border-top:1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer div.content {
+  display:table;
+  padding :0 10px 72px 10px;
+}
+
+footer div.content .col5 {
+  margin-top:45px;
+}
+
+footer div.content .col7 {
+  margin-top:45px;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.copy-text {
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.2px;
+  color: #333333;
+}
+
+.loader {
+  color: #5863f8;
+  font-size: 90px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 72px auto;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+  animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+}
+@-webkit-keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@-webkit-keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.social_icon_link {
+  margin-left: 36px;
+}
+
+.background_outer {
+  overflow: hidden;
+  position:absolute;
+  top: 0px;
+  width: 100%;
+  height: 1000px;
+}
+
+.background {
+  position:absolute;
+  top: 0px;
+    left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+    width: 100%;
+    height: 1000px;
+    z-index: 0;
+}
+
+.topBody {
+  position:relative;
+    z-index: 0;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.landing-arc {
+  margin-top: 46px;
+  margin-bottom: 46px;
+}
+
+.center {
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.overflow_image_container {
+  position: relative;
+  overflow:hidden; height:611px; width:100vw;
+  margin:0;
+  left:0;
+  right:0;
+}
+
+.overflow_image {
+  position: absolute;
+   top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.center_input {
+  display: block;
+  margin: auto;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.dots {
+  height: 7px;
+}
+
+.dots span {
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  background-color: #000000;
+}
+
+    </style>
+<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script async custom-element="amp-bind"
+    src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  </head>
+  <body>
+  	<amp-analytics type="gtag" data-credentials="include">
+<script type="application/json">
+{
+  "vars" : {
+    "gtag_id": "UA-162934284-1",
+    "config" : {
+      "UA-162934284-1": { "groups": "default" }
+    }
+  }
+}
+</script>
+</amp-analytics>
+    <amp-state id="selected">
+  <script type="application/json">
+    {
+      "slide": 0
+    }
+  </script>
+</amp-state>
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Corporation",
+  "name": "QFinds",
+  "legalName": "QFinds Limited",
+  "slogan": "Job hunting sucks. Not anymore.",
+  "logo": "https://qfinds.ioimages/QFinds-logo2x.png",
+  "url": "https://qfinds.io/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "London",
+    "addressCountry": "UK",
+    "addressRegion": "Greater London",
+    "postalCode": "E1 7PT",
+    "streetAddress": "114 Whitechapel High Street"
+  }
+}
+</script>
+<div class="background_outer">
+<div class="background">
+<div class="RectangleBG1"></div>
+<div class="RectangleBG2"></div>
+</div>
+</div>
+<div class="topBody">
+    <header class="headerbar"><div class="content"><amp-img width="90" height="26" layout="fixed" src="images/QFinds-logo.png" class="logo" srcset="images/QFinds-logo.png 90w, images/QFinds-logo2x.png 180w, images/QFinds-logo3x.png 270w" alt="QFinds logo"></amp-img></div></header>
+    <section class="landing_section">
+      <div class="content">
+      <div class="col7 right">
+        <div class="flex_container">
+        <div class="mobile_only">
+          <amp-img width="338" height="423" layout="fixed" src="images/image011x.webp" srcset="images/image011x.webp 338w, images/image012x.webp 676w, images/image013x.webp 1014w">
+      <amp-img width="338" height="423" layout="fixed" src="images/image011x.png" srcset="images/image011x.png 338w, images/image012x.png 676w, images/image013x.png 1014w"></amp-img></amp-img>
+    </div>
+    <div class="desktop_only">
+      <amp-img width="476" height="520" layout="fixed" src="images/image01big1x.webp" srcset="images/image01big1x.webp 476w, images/image01big2x.webp 952w, images/image01big3x.webp 1428w">
+      <amp-img width="476" height="520" layout="fixed" src="images/image01big1x.png" srcset="images/image01big1x.png 476w, images/image01big2x.png 952w, images/image01big3x.png 1428w"></amp-img></amp-img>
+    </div>
+  </div>
+    </div>
+    <div class="col5 left flex_container">
+      <div class="flex_container">
+        <div>
+        <h2 class="Job-hunting-sucks">Job hunting sucks.</h2>
+        <h1 class="Not-anymore">Not anymore.</h1>
+        <p class="Stand-out-with-a-pro">Stand out with a <strong>professional video cv</strong><br>Sign up to hear from us when we launch</p>
+        <form method="post"
+    action-xhr="https://us-central1-q-finds.cloudfunctions.net/subscribeToNewsletter"  
+    target="_top" id="newsletterSubscription" on="submit-success:submitting.close,newsletterSubscription.clear,thank_you.open submit-error:submitting.close,error_message.open">
+    <fieldset>
+      <input type="text" name="name" class="stylish_input" placeholder="Name" tabindex="-1">
+          <input type="email" name="email" class="stylish_input_secondary" placeholder="Email" tabindex="-1">
+          <input type="submit" class="submit" value="Sign me up" tabindex="-1" on="tap:submitting.open" role="button">
+    </fieldset>
+  </form>
+  <amp-lightbox id="submitting" layout="nodisplay">
+    <div class="lightbox" on="tap:submitting.close" tabindex="-1" role="button">
+      <div class="popup" id="popup" on="tap:" tabindex="-1" role="button">
+  <h1>We are signing you up!</h1>
+  <div class="loader"></div>
+</div>
+    </div>
+    </amp-lightbox>
+  <amp-lightbox id="thank_you" layout="nodisplay">
+    <div class="lightbox" on="tap:thank_you.close" tabindex="-1" role="button">
+      <div class="popup" id="popup" on="tap:" tabindex="-1" role="button">
+  <h1>Thank you</h1>
+  <p>We will keep you updated about our progress!</p>
+  <button class="submit" on="tap:thank_you.close">Close</button>
+</div>
+    </div>
+    </amp-lightbox>
+    <amp-lightbox id="error_message" layout="nodisplay">
+    <div class="lightbox" on="tap:error_message.close" tabindex="-1" role="button">
+      <div class="popup" id="popup" on="tap:" tabindex="-1" role="button">
+  <h1>Ooooops</h1>
+  <p>Something went wrong. Please, try again!</p>
+  <button class="submit" on="tap:error_message.close">Close</button>
+</div>
+    </div>
+    </amp-lightbox>
+      </div>
+    </div>
+      </div>
+    </div>
+    </section>
+<!-- 
+    <section class="landing_section content desktop_only">
+      <h3 class="So-so-o-o-simple">Where the <span class="cornflower">fun</span> begins</h3>
+      <p class="A-few-simple-steps-a">All you need is love… Well, and a smartphone</p>
+      <div class="center desktop_only" >
+        <amp-img width="921" height="522" layout="NODISPLAY" src="images/video_tutorial.webp" srcset="images/video_tutorial.webp 921w, images/video_tutorial2x.webp 1842w, images/video_tutorial3x.webp 2763w" alt="QFinds video CV tutorial" class="landing-arc">
+      <amp-img width="921" height="522" layout="NODISPLAY" src="images/video_tutorial.jpg" srcset="images/video_tutorial.jpg 921w, images/video_tutorial2x.jpg 1842w, images/video_tutorial3x.jpg 2763w" alt="QFinds video CV tutorial"></amp-img></amp-img>
+      </div>
+    </section>
+ -->
+    <section class="landing_section alternateSection">
+      <div class="content">
+      <h3 class="So-so-o-o-simple">So, so-so <span class="cornflower">simple</span></h3>
+      <p class="A-few-simple-steps-a">A few simple steps and you’re ready to go</p>
+      <div class="center desktop_only" >
+        <amp-img  width="992" height="678" layout="fixed" src="images/image02.webp" srcset="images/image02.webp 992w, images/image022x.webp 1984w, images/image023x.webp 2976w" alt="QFinds video CV creation workflow" class="landing-arc">
+      <amp-img fallback width="992" height="678" layout="fixed" src="images/image02.png" srcset="images/image02.png 992w, images/image022x.png 1984w, images/image023x.png 2976w" alt="QFinds video CV creation workflow"></amp-img></amp-img>
+      </div>
+      <div class="center mobile_only" style="max-width: 330px;margin-right: auto;margin-left: auto">
+        <amp-carousel
+          layout="responsive"
+          height="631"
+          width="330"
+          type="slides" id="carousel" on="slideChange:AMP.setState({selected: {slide: event.index}})">
+          <amp-img width="330" height="631" layout="responsive" src="images/screen01.webp" srcset="images/screen01.webp 330w, images/screen012x.webp 660w, images/screen013x.webp 990w" alt="QFinds video CV creation workflow">
+      <amp-img fallback width="330" height="631" layout="responsive" src="images/screen01.png" srcset="images/screen01.png 330w, images/screen012x.png 660w, images/screen013x.png 990w" alt="QFinds video CV creation workflow"></amp-img></amp-img>
+      <amp-img width="330" height="631" layout="responsive" src="images/screen02.webp" srcset="images/screen02.webp 330w, images/screen022x.webp 660w, images/screen023x.webp 990w" alt="QFinds video CV creation workflow">
+      <amp-img fallback width="330" height="631" layout="responsive" src="images/screen02.png" srcset="images/screen02.png 330w, images/screen022x.png 660w, images/screen023x.png 990w" alt="QFinds video CV creation workflow"></amp-img></amp-img>
+      <amp-img width="330" height="631" layout="responsive" src="images/screen03.webp" srcset="images/screen03.webp 330w, images/screen032x.webp 660w, images/screen033x.webp 990w" alt="QFinds video CV creation workflow">
+      <amp-img fallback width="330" height="631" layout="responsive" src="images/screen03.png" srcset="images/screen03.png 330w, images/screen032x.png 660w, images/screen033x.png 990w" alt="QFinds video CV creation workflow"></amp-img></amp-img>
+        </amp-carousel>
+        <p class="dots">
+  <span [class]="selected.slide == 0 ? 'current' : ''" class="current"></span>
+  <span [class]="selected.slide == 1 ? 'current' : ''"></span>
+  <span [class]="selected.slide == 2 ? 'current' : ''"></span>
+</p>
+      </div>
+    </div>
+    </section>
+    <section class="landing_section">
+      <div class="content center">
+        <h4 class="Less-time-job-huntin">Less time job hunting, more time to<br>do something you <span class="cornflower">truly love</span></h4>
+      </div>
+      <div class="overflow_image_container">
+        <amp-img width="1433" height="611" layout="fixed" src="images/collage.webp" srcset="images/collage.webp 1433w, images/collage2x.webp 2866w, images/collage3x.webp 4299w" alt="Collage illustrating activities which QFinds app frees people to enjoy" class="landing-arc overflow_image">
+      <amp-img fallback width="1433" height="611" layout="fixed" src="images/collage.jpg" srcset="images/collage.jpg 1433w, images/collage2x.jpg 2866w, images/collage3x.jpg 4299w" alt="Collage illustrating activities which QFinds app frees people to enjoy"></amp-img></amp-img>
+      </div>
+    </section>
+    <section class="landing_section">
+      <div class="content center">
+      <h2 class="Join-the-revolution">Join the revolution</h2>
+      <p class="A-few-simple-steps-a">Professional video cv in seconds<br>Sign up to hear from us when we launch</p>
+<form method="post"
+    action-xhr="https://us-central1-q-finds.cloudfunctions.net/subscribeToNewsletter"  
+    target="_top" id="newsletterSubscription" on="submit-success:submitting.close,newsletterSubscription.clear,thank_you.open submit-error:submitting.close,error_message.open">
+    <fieldset class="center">
+      <input type="text" name="name" class="stylish_input center_input" placeholder="Name" tabindex="-1">
+          <input type="email" name="email" class="stylish_input_secondary center_input" placeholder="Email" tabindex="-1">
+          <input type="submit" class="center_input submit mt40" value="Sign me up" tabindex="-1" on="tap:submitting.open" role="button">
+    </fieldset>
+  </form>
+  <amp-lightbox id="submitting" layout="nodisplay">
+    <div class="lightbox" on="tap:submitting.close" tabindex="-1" role="button">
+      <div class="popup" id="popup" on="tap:" tabindex="-1" role="button">
+  <h1>We are signing you up!</h1>
+  <div class="loader"></div>
+</div>
+    </div>
+    </amp-lightbox>
+  <amp-lightbox id="thank_you" layout="nodisplay">
+    <div class="lightbox" on="tap:thank_you.close" tabindex="-1" role="button">
+      <div class="popup" id="popup" on="tap:" tabindex="-1" role="button">
+  <h1>Thank you</h1>
+  <p>We will keep you updated about our progress!</p>
+  <button class="submit" on="tap:thank_you.close">Close</button>
+</div>
+    </div>
+    </amp-lightbox>
+    <amp-lightbox id="error_message" layout="nodisplay">
+    <div class="lightbox" on="tap:error_message.close" tabindex="-1" role="button">
+      <div class="popup" id="popup" on="tap:" tabindex="-1" role="button">
+  <h1>Ooooops</h1>
+  <p>Something went wrong. Please, try again!</p>
+  <button class="submit" on="tap:error_message.close">Close</button>
+</div>
+    </div>
+    </amp-lightbox>
+  </div>
+    </section>
+    <footer>
+      <div class="content">
+      <div class="col5 left">
+        <amp-img width="90" height="26" layout="fixed" src="images/QFinds-logo.png" class="logo" srcset="images/QFinds-logo.png 90w, images/QFinds-logo2x.png 180w, images/QFinds-logo3x.png 270w" alt="QFinds logo"></amp-img>
+      </div>
+      <div class="col7 right right-text">
+        <a href="https://twitter.com/weareqfinds" class="social_icon_link"><amp-img width="28" height="28" layout="fixed" src="images/twitter.webp" srcset="images/twitter.webp 28w, images/twitter2x.webp 56w, images/twitter3x.webp 84w" alt="QFinds on Twitter">
+      <amp-img fallback width="28" height="28" layout="fixed" src="images/twitter.png" srcset="images/twitter.png 28w, images/twitter2x.png 56w, images/twitter3x.png 84w" alt="QFinds on Twitter"></amp-img></amp-img></a><a href="https://www.facebook.com/weareqfinds" class="social_icon_link"><amp-img width="28" height="28" layout="fixed" src="images/facebook.webp" srcset="images/facebook.webp 28w, images/facebook2x.webp 56w, images/facebook3x.webp 84w" alt="QFinds on Facebook">
+      <amp-img fallback width="28" height="28" layout="fixed" src="images/facebook.png" srcset="images/facebook.png 28w, images/facebook2x.png 56w, images/facebook3x.png 84w" alt="QFinds on Facebook"></amp-img></amp-img></a><a href="https://www.instagram.com/weareqfinds" class="social_icon_link"><amp-img width="28" height="28" layout="fixed" src="images/instagram.webp" srcset="images/instagram.webp 28w, images/instagram2x.webp 56w, images/instagram3x.webp 84w" alt="QFinds on Instagram">
+      <amp-img fallback width="28" height="28" layout="fixed" src="images/instagram.png" srcset="images/instagram.png 28w, images/instagram2x.png 56w, images/instagram3x.png 84w" alt="QFinds on Instagram"></amp-img></amp-img></a>
+      </div>
+      <div class="col5 left">
+      </div>
+      <div class="col7 right right-text copy-text">
+        <p>
+          <strong>QFinds Limited</strong><br>
+114 Whitechapel High Street<br>
+E1 7PT, London, United Kingdom
+2020 © QFinds Limited. All rights reserved
+        </p>
+      </div>
+    </div>
+    </footer>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "q-finds": "q-finds"
+  },
+  "targets": {
+    "q-finds": {
+      "hosting": {
+        "qfindsdev": [
+          "qfindsdev"
+        ],
+        "q-finds": [
+          "q-finds"
+        ]
+      }
+    }
+  }
+}
