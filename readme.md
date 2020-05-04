@@ -1,7 +1,11 @@
 ## TODO
 
-1. Footer
-2. Render icons (not working as-is)
-3. Render design elements
-4. Media queries for mobile version
-5. Sandwich menu
++ Render QFinds logos in nav + footer
+   * Both svg/png not rendering via `<img src=` in any browser (?)
++ Ensure fixed height for navbar 
+   * Responsively heightens on large screens (?)
++ Finish contact form validation styling
+   * Override default browser validation styling
+   * Appropriately position textual alerts for `:invalid`
+ 
+
